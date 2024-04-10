@@ -1,0 +1,7 @@
+.linkIcon:hover {
+  opacity: 0.5;
+}
+
+.linkIcon img {
+  height: 2.375rem;
+}

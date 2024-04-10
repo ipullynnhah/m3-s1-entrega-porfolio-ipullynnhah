@@ -16,11 +16,12 @@
   gap: 3.75rem;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 680px) {
   .header {
     flex-direction: row;
     gap: unset;
     justify-content: space-between;
+    margin-bottom: 6.44rem;
   }
 
   .header li a:hover {

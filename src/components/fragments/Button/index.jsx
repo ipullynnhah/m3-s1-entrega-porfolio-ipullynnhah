@@ -1,3 +1,3 @@
-export function Button() {
-  return <h3>Button</h3>;
+export function Button({ url, children }) {
+  return <a href={url}>{children}</a>;
 }

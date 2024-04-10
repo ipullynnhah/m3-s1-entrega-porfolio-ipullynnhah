@@ -8,8 +8,7 @@ export function Header() {
     <header>
       <img src={logo} alt={"Logo do Portfólio"} />
       <Menu />
-      {/*TODO: need to pass parameters to Button*/}
-      <Button />
+      <Button url={"#contact"}>Contato</Button>
     </header>
   );
 }

@@ -1,7 +1,6 @@
 import { HomePage } from "./pages/HomePage/index.jsx";
 
-import "./styles/reset.css";
-import "./styles/globalStyles.css";
+import "./styles/index.css";
 
 function App() {
   return <HomePage />;

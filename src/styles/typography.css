@@ -1,0 +1,15 @@
+h1 {
+  font: var(--font-title1);
+}
+
+h2 {
+  font: var(--font-title2);
+}
+
+h3 {
+  font: var(--font-title3);
+}
+
+p {
+  font: var(--font-text);
+}

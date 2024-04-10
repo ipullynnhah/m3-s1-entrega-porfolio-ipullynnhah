@@ -17,3 +17,8 @@
 
   --font-btn: 600 0.875rem "Inter", sans-serif;
 }
+
+body {
+  background: var(--black);
+  color: var(--white);
+}

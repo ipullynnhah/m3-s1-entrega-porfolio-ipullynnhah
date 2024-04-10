@@ -1,10 +1,16 @@
+import { user } from "../../data/user.js";
+
 import { ContactList } from "./ContactList";
 
 export function Footer() {
   return (
-    <>
-      <h2>Footer</h2>
-      <ContactList />
-    </>
+    <footer>
+      <div>
+        <h2>Contato</h2>
+        <ContactList />
+      </div>
+
+      <p>Todos os direitos reservados - {user}</p>
+    </footer>
   );
 }

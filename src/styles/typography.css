@@ -1,15 +1,21 @@
-h1 {
+.title.lg {
   font: var(--font-title1);
 }
 
-h2 {
+.title.md {
   font: var(--font-title2);
 }
 
-h3 {
+.title.sm {
   font: var(--font-title3);
 }
 
-p {
+.text {
   font: var(--font-text);
+}
+
+.username {
+  font: var(--font-username);
+  text-transform: uppercase;
+  color: var(--color-brand);
 }

@@ -6,9 +6,9 @@ export function BannerSection() {
   return (
     <section>
       <div>
-        <p>{username}</p>
-        <h1>Bem vindo ao meu portfólio</h1>
-        <p>Uma frase interessante sobre mim</p>
+        <p className={"username"}>{username}</p>
+        <h1 className={"title lg"}>Bem vindo ao meu portfólio</h1>
+        <p className={"text"}>Uma frase interessante sobre mim</p>
         <Link url={"#about-me"}>Saiba mais</Link>
       </div>
       <img src={banner} alt={"Desenho de um notebook com código solto"} />

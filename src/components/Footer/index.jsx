@@ -6,11 +6,11 @@ export function Footer() {
   return (
     <footer>
       <div>
-        <h2>Contato</h2>
+        <h2 className={"title md"}>Contato</h2>
         <ContactList />
       </div>
 
-      <p>Todos os direitos reservados - {user}</p>
+      <p className={"text"}>Todos os direitos reservados - {user}</p>
     </footer>
   );
 }

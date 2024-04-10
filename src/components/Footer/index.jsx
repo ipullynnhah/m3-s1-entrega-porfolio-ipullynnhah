@@ -1,4 +1,4 @@
-import { user } from "../../data/user.js";
+import { user } from "../../data/user";
 
 import { ContactList } from "./ContactList";
 

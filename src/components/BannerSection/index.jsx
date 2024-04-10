@@ -1,5 +1,5 @@
 import banner from "../../assets/banner.svg";
-import { username } from "../../data/user.js";
+import { username } from "../../data/user";
 import { Link } from "../fragments/Link";
 
 export function BannerSection() {

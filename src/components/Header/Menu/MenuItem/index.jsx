@@ -1,7 +1,9 @@
 export function MenuItem({ url, text }) {
   return (
     <li>
-      <a href={url}>{text}</a>
+      <a className={"link"} href={url}>
+        {text}
+      </a>
     </li>
   );
 }

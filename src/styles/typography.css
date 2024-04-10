@@ -15,7 +15,15 @@
 }
 
 .text.brand {
-  font: var(--font-brand);
+  font: var(--font-text-brand);
   text-transform: uppercase;
   color: var(--color-brand);
+}
+
+.link {
+  font: var(--font-link);
+}
+
+.link.learn-more {
+  font: var(--font-link-brand);
 }

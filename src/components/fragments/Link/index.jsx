@@ -1,3 +1,7 @@
 export function Link({ url, children }) {
-  return <a href={url}>{children}</a>;
+  return (
+    <a className={"link"} href={url}>
+      {children}
+    </a>
+  );
 }

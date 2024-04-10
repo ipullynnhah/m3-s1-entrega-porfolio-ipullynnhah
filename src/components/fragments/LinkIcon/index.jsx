@@ -1,3 +1,7 @@
-export function LinkIcon() {
-  return <h3>LinkIcon</h3>;
+export function LinkIcon({ icon, url, name }) {
+  return (
+    <a href={url} target={"_blank"}>
+      <img src={icon} alt={name} />
+    </a>
+  );
 }

@@ -1,3 +1,17 @@
+import { MenuItem } from "./MenuItem/index.jsx";
+
 export function Menu() {
-  return <h3>Menu</h3>;
+  const menu = [
+    { id: 1, url: "#about", text: "Sobre" },
+    { id: 2, url: "#stack", text: "Stack" },
+    { id: 3, url: "#projects", text: "Projetos" }
+  ];
+
+  return (
+    <ul>
+      {menu.map(({ id, url, text }) => (
+        <MenuItem key={id} url={url} text={text} />
+      ))}
+    </ul>
+  );
 }

@@ -1,0 +1,10 @@
+.linkBtn {
+  display: inline-block;
+  padding: 0.69rem 1.81rem;
+  background: var(--color-brand);
+  border-radius: 0.75rem;
+}
+
+.linkBtn:hover {
+  background: var(--color-brand-hover);
+}

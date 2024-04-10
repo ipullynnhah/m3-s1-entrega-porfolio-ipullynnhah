@@ -1,0 +1,20 @@
+.aboutMe {
+  margin-bottom: 5.62rem;
+}
+
+.aboutMe h2 {
+  margin-bottom: 1.56rem;
+}
+
+@media (min-width: 900px) {
+  .aboutMe {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 4.38rem;
+  }
+
+  .aboutMe h2 {
+    flex-shrink: 0;
+  }
+}

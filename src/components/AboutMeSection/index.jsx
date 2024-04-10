@@ -1,7 +1,8 @@
-// TODO: need to add #about-me to this
+import styles from "./style.module.css";
+
 export function AboutMeSection() {
   return (
-    <section>
+    <section id={"#about-me"} className={styles.aboutMe}>
       <h2 className={"title md"}>Sobre mim</h2>
       <p className={"text"}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ex magna,

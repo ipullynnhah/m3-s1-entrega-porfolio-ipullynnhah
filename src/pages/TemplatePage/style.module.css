@@ -1,5 +1,5 @@
 .page {
-  max-width: 90rem;
-  padding: 1.69rem clamp(1.69rem, 0.5245rem + 4.9728vw, 5rem);
+  max-width: 56.25rem;
+  padding: 1.69rem clamp(1.69rem, 1.6689rem + 0.0901vw, 1.75rem);
   margin: 0 auto;
 }

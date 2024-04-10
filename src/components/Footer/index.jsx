@@ -1,10 +1,10 @@
-import { Contact } from "./Contact";
+import { ContactList } from "./ContactList";
 
 export function Footer() {
   return (
     <>
       <h2>Footer</h2>
-      <Contact />
+      <ContactList />
     </>
   );
 }

@@ -1,5 +1,7 @@
+import { HomePage } from "./pages/HomePage/index.jsx";
+
 function App() {
-  return <h1>Portfólio</h1>;
+  return <HomePage />;
 }
 
 export default App;

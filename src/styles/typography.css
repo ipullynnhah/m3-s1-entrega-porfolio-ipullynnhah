@@ -14,8 +14,8 @@
   font: var(--font-text);
 }
 
-.username {
-  font: var(--font-username);
+.text.brand {
+  font: var(--font-brand);
   text-transform: uppercase;
   color: var(--color-brand);
 }

@@ -2,9 +2,7 @@ export function TechCard({ icon, name }) {
   return (
     <li>
       <img src={icon} alt={name} />
-      <p>
-        <strong>{name}</strong>
-      </p>
+      <h3 className={"title sm"}>{name}</h3>
     </li>
   );
 }

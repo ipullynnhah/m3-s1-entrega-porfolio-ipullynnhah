@@ -6,7 +6,7 @@ export function BannerSection() {
   return (
     <section>
       <div>
-        <p className={"username"}>{username}</p>
+        <p className={"text brand"}>{username}</p>
         <h1 className={"title lg"}>Bem vindo ao meu portfólio</h1>
         <p className={"text"}>Uma frase interessante sobre mim</p>
         <Link url={"#about-me"}>Saiba mais</Link>

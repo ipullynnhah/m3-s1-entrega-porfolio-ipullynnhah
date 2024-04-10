@@ -1,22 +1,31 @@
 export const projects = [
   {
     id: 1,
-    name: "Projeto 1",
-    description: "Atividade Props Card Pessoas"
+    name: "KenzieFlix",
+    link: "https://kenzieflix.ipullynnhah.xyz",
+    repo: "https://github.com/ipullynnhah/kenzieflix",
+    description: "Projeto de HTML e CSS básico"
   },
   {
     id: 2,
-    name: "Projeto 2",
-    description: "Atividade Praticando Children"
+    name: "Lista de Tarefas",
+    link: "https://todos.ipullynnhah.xyz",
+    repo: "https://github.com/ipullynnhah/todos",
+    description: "Projeto de Manipulação do DOM"
   },
   {
     id: 3,
-    name: "Projeto 3",
-    description: "Descrição do projeto 3"
+    name: "Site Institucional Genérico",
+    link: "https://generic-landing-page.ipullynnhah.xyz",
+    repo: "https://github.com/ipullynnhah/generic-landing-page",
+    description: "Projeto de Manipulação do DOM com Responsividade"
   },
+
   {
     id: 4,
-    name: "Projeto 4",
-    description: "Descrição do projeto 4"
+    name: "Open Music",
+    link: "https://open-music.ipullynnhah.xyz",
+    repo: "https://github.com/ipullynnhah/open-music",
+    description: "Projeto de Manipulação do DOM, Responsividade e APIs"
   }
 ];

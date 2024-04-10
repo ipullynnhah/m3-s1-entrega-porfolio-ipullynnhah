@@ -1,5 +1,5 @@
 import logo from "../../assets/logo.svg";
-import { Button } from "../fragments/Button";
+import { Link } from "../fragments/Link";
 
 import { Menu } from "./Menu";
 
@@ -8,7 +8,7 @@ export function Header() {
     <header>
       <img src={logo} alt={"Logo do Portfólio"} />
       <Menu />
-      <Button url={"#contact"}>Contato</Button>
+      <Link url={"#contact"}>Contato</Link>
     </header>
   );
 }

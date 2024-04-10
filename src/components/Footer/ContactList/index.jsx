@@ -1,6 +1,6 @@
 // TODO: need to add #contact to this
 import { socialMedias } from "../../../data/socialMedias.js";
-import { LinkIcon } from "../../fragments/LinkIcon/index.jsx";
+import { LinkIcon } from "../../fragments/LinkIcon";
 
 export function ContactList() {
   return (

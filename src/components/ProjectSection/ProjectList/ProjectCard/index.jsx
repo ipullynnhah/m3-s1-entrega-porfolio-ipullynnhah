@@ -1,5 +1,5 @@
 import githubIcon from "../../../../assets/github-icon-white.svg";
-import { LinkIcon } from "../../../fragments/LinkIcon/index.jsx";
+import { LinkIcon } from "../../../fragments/LinkIcon";
 
 export function ProjectCard({ name, link, repo, description }) {
   return (

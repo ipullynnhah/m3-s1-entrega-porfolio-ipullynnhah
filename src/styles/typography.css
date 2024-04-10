@@ -1,13 +1,18 @@
+.title {
+  font-weight: 800;
+  font-family: var(--font-title);
+}
+
 .title.lg {
-  font: var(--font-title1);
+  font-size: var(--font-size-title1);
 }
 
 .title.md {
-  font: var(--font-title2);
+  font-size: var(--font-size-title2);
 }
 
 .title.sm {
-  font: var(--font-title3);
+  font-size: var(--font-size-title3);
 }
 
 .text {

@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 1.7rem;
+
+  margin-bottom: 1.75rem;
+}
+
+.header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.75rem;
+}
+
+@media (min-width: 600px) {
+  .header {
+    flex-direction: row;
+    gap: unset;
+    justify-content: space-between;
+  }
+
+  .header li a:hover {
+    text-decoration: underline;
+    color: var(--color-brand-hover);
+  }
+}

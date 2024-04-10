@@ -1,3 +1,10 @@
-export function TechCard() {
-  return <h4>TechCard</h4>;
+export function TechCard({ icon, name }) {
+  return (
+    <li>
+      <img src={icon} alt={name} />
+      <p>
+        <strong>{name}</strong>
+      </p>
+    </li>
+  );
 }

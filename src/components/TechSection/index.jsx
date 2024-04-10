@@ -2,9 +2,9 @@ import { TechList } from "./TechList";
 
 export function TechSection() {
   return (
-    <>
-      <h2>TechSection</h2>
+    <section>
+      <h2>Tecnologias</h2>
       <TechList />
-    </>
+    </section>
   );
 }

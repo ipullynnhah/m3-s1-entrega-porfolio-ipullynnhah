@@ -1,4 +1,4 @@
-import { MenuItem } from "./MenuItem/index.jsx";
+import { MenuItem } from "./MenuItem";
 
 export function Menu() {
   const menu = [

@@ -1,4 +1,4 @@
-import { technologies } from "../../../data/technologies.js";
+import { technologies } from "../../../data/technologies";
 
 import { TechCard } from "./TechCard";
 

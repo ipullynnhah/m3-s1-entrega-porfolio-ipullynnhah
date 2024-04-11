@@ -9,7 +9,7 @@ export function ProjectCard({ name, link, repo, description }) {
         <LinkIcon name={name} url={repo} icon={githubIcon} />
       </div>
       <p className={"text"}>{description}</p>
-      <a className={"link learn-more"} href={link}>
+      <a className={"link learn-more"} href={link} target={"_blank"}>
         Saiba mais
       </a>
     </li>

@@ -18,7 +18,7 @@ export const projects = [
     name: "Site Institucional Genérico",
     link: "https://generic-landing-page.ipullynnhah.xyz",
     repo: "https://github.com/ipullynnhah/generic-landing-page",
-    description: "Projeto de Manipulação do DOM com Responsividade"
+    description: "Projeto de Responsividade"
   },
 
   {
@@ -26,6 +26,6 @@ export const projects = [
     name: "Open Music",
     link: "https://open-music.ipullynnhah.xyz",
     repo: "https://github.com/ipullynnhah/open-music",
-    description: "Projeto de Manipulação do DOM, Responsividade e APIs"
+    description: "Projeto de APIs"
   }
 ];

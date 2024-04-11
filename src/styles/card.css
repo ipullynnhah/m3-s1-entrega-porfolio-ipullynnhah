@@ -6,13 +6,20 @@
 }
 
 .card.sm {
+  max-width: 17.9375rem;
   display: flex;
   align-items: center;
   gap: 2.12rem;
+  margin-bottom: 0.19rem;
+}
+
+.card.lg {
+  max-width: 27.4375rem;
 }
 
 .card.lg div {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  margin-bottom: 0.5rem;
 }

@@ -5,7 +5,7 @@ import { ProjectCard } from "./ProjectCard";
 
 export function ProjectList() {
   return (
-    <ul className={`${styles.projectList} list`} id={"#projects"}>
+    <ul className={`${styles.projectList} list`}>
       {projects.map(({ id, name, link, repo, description }) => (
         <ProjectCard
           key={id}

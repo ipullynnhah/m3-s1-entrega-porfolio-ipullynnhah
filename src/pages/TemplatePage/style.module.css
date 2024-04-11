@@ -1,5 +1,9 @@
 .page {
-  max-width: 56rem;
   padding: 1.69rem clamp(1.69rem, 1.6689rem + 0.0901vw, 1.75rem);
-  margin: 0 auto;
+}
+
+.page :is(header, main, footer) {
+  max-width: 56rem;
+  margin-left: auto;
+  margin-right: auto;
 }

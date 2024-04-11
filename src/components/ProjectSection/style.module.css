@@ -5,7 +5,3 @@
 .projectList p {
   margin: 1.06rem 0 2rem;
 }
-
-.projectList div a:hover {
-  opacity: 0.4;
-}

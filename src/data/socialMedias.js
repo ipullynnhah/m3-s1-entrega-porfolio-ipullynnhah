@@ -11,7 +11,7 @@ export const socialMedias = [
   },
   {
     id: 2,
-    url: "https://linkedin.com/ipullynnhah",
+    url: "https://linkedin.com/in/ipullynnhah",
     icon: linkedinIcon,
     name: "LinkedIn"
   },

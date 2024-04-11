@@ -4,7 +4,7 @@ import { TechCard } from "./TechCard";
 
 export function TechList() {
   return (
-    <ul className={"#stacks"}>
+    <ul className={"list"} id={"#stacks"}>
       {technologies.map(({ id, name, icon }) => (
         <TechCard key={id} name={name} icon={icon} />
       ))}

@@ -1,10 +1,11 @@
 import { projects } from "../../../data/projects";
+import styles from "../style.module.css";
 
 import { ProjectCard } from "./ProjectCard";
 
 export function ProjectList() {
   return (
-    <ul className={"#projects"}>
+    <ul className={`${styles.projectList} list`} id={"#projects"}>
       {projects.map(({ id, name, link, repo, description }) => (
         <ProjectCard
           key={id}

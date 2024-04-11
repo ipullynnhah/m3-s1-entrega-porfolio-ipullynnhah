@@ -31,4 +31,10 @@
 
 .link.learn-more {
   font: var(--font-link-brand);
+  color: var(--color-brand);
+}
+
+.link.learn-more:hover {
+  color: var(--color-brand-hover);
+  text-decoration: underline;
 }

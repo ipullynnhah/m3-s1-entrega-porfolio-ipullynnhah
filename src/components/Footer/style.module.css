@@ -37,5 +37,7 @@
     padding: 0;
     justify-content: flex-start;
     gap: 0.94rem;
+
+    margin-bottom: 0;
   }
 }

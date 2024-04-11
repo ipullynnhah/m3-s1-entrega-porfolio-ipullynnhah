@@ -3,7 +3,7 @@ import { LinkIcon } from "../../../fragments/LinkIcon";
 
 export function ProjectCard({ name, link, repo, description }) {
   return (
-    <li className={"card"}>
+    <li className={"card lg"}>
       <div>
         <h3 className={"title sm"}>{name}</h3>
         <LinkIcon name={name} url={repo} icon={githubIcon} />

@@ -7,18 +7,18 @@ export const socialMedias = [
     id: 1,
     url: "https://wa.me/5551990074509",
     icon: whatsappIcon,
-    name: "WhatsApp"
+    name: "WhatsApp",
   },
   {
     id: 2,
     url: "https://linkedin.com/in/ipullynnhah",
     icon: linkedinIcon,
-    name: "LinkedIn"
+    name: "LinkedIn",
   },
   {
     id: 3,
     url: "https://github.com/ipullynnhah",
     icon: githubIcon,
-    name: "GitHub"
-  }
+    name: "GitHub",
+  },
 ];
